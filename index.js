@@ -33,6 +33,7 @@ function runServer(port = PORT) {
     });
 }
 
+// check mongo
 if (require.main === module) {
   //dbConnect();
   runServer();
